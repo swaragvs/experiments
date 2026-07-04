@@ -1,0 +1,8 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- pick either redAccent or greenAccent as your highlight -->
+    <color name="redAccent">#FF1744</color>
+    <color name="greenAccent">#00E676</color>
+    <color name="surface">#0D0D0D</color>
+</resources>
