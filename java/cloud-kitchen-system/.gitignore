@@ -1,0 +1,51 @@
+# Compiled class files
+*.class
+
+# Binary directory
+bin/
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Serialized files
+*.ser
+
+# IDE-specific files
+.idea/
+.settings/
+.classpath
+.project
+*.iml
+*.iws
+*.ipr
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*~
+*.swp
+*.bak
