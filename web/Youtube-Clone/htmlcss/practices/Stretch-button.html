@@ -1,0 +1,40 @@
+<style>
+/* Stretching Styles */
+.stretch-button {
+    background-color: rgb(24, 109, 24); /* green */
+    color: white; /* white */
+    border: none; /* no border */
+    padding : 2px 4px; /* padding top and bottom, left and right */
+    border-radius: 4px; /* rounded corners */
+    font-size: 12px; /* larger font size */ 
+    cursor: pointer; /* pointer cursor */
+    /*vertical-align: top; /* align to top */
+    font-weight: bold; /* bold text */
+    
+    /*margin: 10px 20px; /* margin top and bottom, left and right */
+    transition: padding 1s, 
+                transform 0.45s, /* smooth transition for transform */
+                /* smooth transition for padding */
+                /*rgin 1s, /* smooth transition for margin */
+                font-size 0.45s, /* smooth transition for font size */
+                background-color 0.45s; /* smooth transition for padding and background color */
+    }
+
+    .stretch-button:hover {
+       
+    padding: 80px 180px; /* Even horizontal stretch */
+    padding: 160px 360px; /* Even vertical stretch */
+    font-size: 64px; /* larger font size */ 
+    background-color: rgb(0, 100, 0); /* darker green on hover */
+    }
+    .stretch-button:active {
+    
+    transform: scale(2.35); /* scale up on click */
+    background-color: rgb(0, 50, 0); /* even darker green on click */
+    }
+
+</style>
+
+<button class="stretch-button" >
+    Stretch Me 
+</button>

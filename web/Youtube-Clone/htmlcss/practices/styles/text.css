@@ -1,0 +1,64 @@
+/* CSS for Text */ 
+    p {
+    font-family: Roboto; /* Arial font */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.video-title {
+    font-size: 18px; /* larger font size */
+    font-weight: bold; /* bold text */
+    width: 300px; 
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0); /* black */
+    /*text-align: center; /* center alignment */
+    /*font-style: italic; /* italic text */
+}
+
+.video-stats {
+    
+    
+    font-size: 14px; /* smaller font size */
+    color: rgb(128, 128, 128); /* gray */
+    width: 300px; 
+    line-height: 20px;
+    margin-bottom: 20px;
+
+    /*text-align: center; /* center alignment */
+}  
+.video-author {
+    
+    font-size: 14px; /* smaller font size */
+    color: rgb(128, 128, 128); /* black */
+     
+    margin-bottom: 20px;
+    /*text-align: center; /* center alignment */
+} 
+.video-description {
+     
+    font-size: 14px; /* smaller font size */
+    color: rgb(128, 128, 128);
+    width: 280px; 
+    line-height: 22px;
+    margin-bottom: 20px;
+    /*text-align: center; /* center alignment */
+}
+.apple-text {
+    font-size: 14px; /* smaller font size */
+    background-color: rgb(227, 65, 64); 
+    color: white;
+    text-align: center; /* center alignment */
+    padding-top: 18px; /* padding top */
+    padding-bottom: 18px; /* padding bottom */
+    /*text-decoration: underline; /* underline text */
+    width: 500px; 
+    line-height: 20px;
+    margin-bottom: 50px;
+    /*text-align: center; /* center alignment */
+}
+.shop-link:hover {
+    cursor: pointer; /* pointer cursor on hover */
+    text-decoration: underline; /* underline text */
+    color: white; /* white text */
+}
