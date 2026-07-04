@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic for all domains during debugging -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Make sure our specific server domains are explicitly permitted -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.56.1</domain>
+        <domain includeSubdomains="true">192.168.29.29</domain>
+        <domain includeSubdomains="true">172.25.144.1</domain>
+        <domain includeSubdomains="true">192.168.137.1</domain>
+        <!-- Add all your possible server IPs here -->
+    </domain-config>
+</network-security-config>
